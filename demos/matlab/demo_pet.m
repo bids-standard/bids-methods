@@ -1,8 +1,8 @@
-data_dir = '/home/remi/github/BIDS-matlab/lib/bids-methods/demos/data';
+data_dir = fullfile(root_dir, 'demos', 'data');
 
-templates_dir = '/home/remi/github/BIDS-matlab/lib/bids-methods/templates';
+templates_dir = fullfile(root_dir, 'templates');
 
-partials_path = '/home/remi/github/BIDS-matlab/lib/bids-methods/partials';
+partials_path = fullfile(root_dir, 'partials');
 
 %% PET
 

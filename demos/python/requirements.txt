@@ -1,1 +1,4 @@
-chevron
+pybids
+rich
+# use latest chevron
+git+https://github.com/noahmorrison/chevron.git
