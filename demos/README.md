@@ -21,3 +21,9 @@ Requires:
 - Octache: https://github.com/Remi-Gau/Octache
 
 ## javascript
+
+Work in progress
+
+```
+npm install mustache --save
+```
