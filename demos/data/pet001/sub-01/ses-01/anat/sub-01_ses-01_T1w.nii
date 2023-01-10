@@ -16,20 +16,20 @@
 
 
   <link crossorigin="anonymous" media="all" integrity="sha512-rF3cnLJE5IkKUWFkw54emxUMV82DhbZ9aJun83zhvBgJ7J7ZXC20bEFVuLY9RRRC60Ig+pHQO57DuYBrYO+cAA==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-ac5ddc9cb244e4890a516164c39e1e9b.css" />
-  
+
     <link crossorigin="anonymous" media="all" integrity="sha512-QaNsQo+NvYthUThcm/0ZOxKhoma6eXXzfaxSBUpGrWSQyYRFjPhoOqMdXank8wuFIwK/U5cKJFbYtW+uYX36JA==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-41a36c428f8dbd8b6151385c9bfd193b.css" />
-    
-    
-    
+
+
+
     <link crossorigin="anonymous" media="all" integrity="sha512-2ZXo3HWTIgpDwZGs/DKGLRS/tN2CLozJLJZxcxni77PnPB84YwOeigO/lBxFIqnoMcmf51+wtySzAoASg5/Quw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-d995e8dc7593220a43c191acfc32862d.css" />
 
   <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-wxbDdsfV3ZXvZcG3x1EVdRRIYqtqF9pJCk7lYK5F4g4QACdsYlp1QJ7oVl8GaEX//zwn6qszLE/i1HhQwujvgg==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-c316c376.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-ez6ZuPFZ6owUkFKpXFA2wSMYeTJFqWW5P7D+EUjB7P5lobOaWbRZ+y8P/QQc7cf0t75W64Z9Z22qiE6BWQ1wsQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-7b3e99b8.js"></script>
-  
+
   <script crossorigin="anonymous" defer="defer" integrity="sha512-xACnfyFLZo5Ufzd7hrjnUSIsRdAzObezzxnLorF3oxWEPMvIww9XABnZMfeAy8OWT7hP623qvzzGUhsgM6pSsw==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-c400a77f.js"></script>
   <script crossorigin="anonymous" defer="defer" integrity="sha512-IboH9NL3+O+Lawukto6QKYpZo9QXcqLTuYSR6qN9HjTXaD7uqCRQAOUJicPMDeNw/1J9CFaTG1FQjHT/00QnSw==" type="application/javascript" src="https://github.githubassets.com/assets/primer-21ba07f4.js"></script>
-  
+
     <script crossorigin="anonymous" defer="defer" integrity="sha512-evfy6RyDyXvLuaEEFaUaIlw9dSRgvKkF3rMeUELkvXq7sGEK/43vTg+3EE6E8nOsjpuPyYQjgS8bxzqkTjlZag==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-7af7f2e9.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-obMR8mPKx8OvqRe34LgnUcxeJ1qujiA4ND3H6UX13ExMlA/WfHLjEzXRmgGRcRvN/8J1nzc+Z+jgz/PLTFy6zg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-a1b311f2.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-cVnIoXzYnuz2SYwsbnuCpTFzvO17cPoQV2mK82+em//c8i7V2L0VEeInplXGgfbx4d8bQGQuPPx0P0BCRfJ37g==" type="application/javascript" data-module-id="./chunk-edit.js" data-src="https://github.githubassets.com/assets/chunk-edit-7159c8a1.js"></script>
@@ -42,12 +42,12 @@
     <script crossorigin="anonymous" defer="defer" integrity="sha512-cAsQOq53AtF8bCPWtKuMXOB2Jjt2089fKQQXtk1bNk2ZSBjx2yQOdGZWsXDfWG5H8FmjJzZsepBmOhy+wO7uAQ==" type="application/javascript" data-module-id="./chunk-toast.js" data-src="https://github.githubassets.com/assets/chunk-toast-700b103a.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-QBwrFY4kzAVN0nZmTYJLeEhi5bQ+42rE8h1g384XeZb7n62BykcUICACtaDQ473aIrRf38RSR7WDfNEIVuSlTA==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-401c2b15.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-8nRDQm5TNi0w14xLbeSNsfFrDb1VhUXLGA1f0CqODEhDhYuKYEmSET/IfHWycu+LDTB4OEHyHwBqsW9PBOUt1Q==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-f2744342.js"></script>
-  
+
   <script crossorigin="anonymous" defer="defer" integrity="sha512-PhGZbTBXNjJ6h8SGc6DaFxnUw4GLN/FyxiQ08qgRP81eONqtdo+Hm4Ln5F3a3dHHjEzo+h71q+/EJMxbpHbT/A==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-3e11996d.js"></script>
 <script crossorigin="anonymous" defer="defer" integrity="sha512-s1zbPfTud+ym70PrOOEd7C7fPCqDSZmqlhaQNPZ4Cd0ICRtORFo96Am3LnLvehshZpj5XvK7GbsvkwlI3WOJQw==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-b35cdb3d.js"></script>
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>bids-examples/sub-01_ses-01_T1w.nii at bep009_pet · bids-standard/bids-examples</title>
     <meta name="description" content="A set of BIDS compatible datasets with empty raw data files that can be used for writing lightweight software tests. - bids-standard/bids-examples">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
@@ -59,7 +59,7 @@
 
 
 
-    
+
 
   <link rel="assets" href="https://github.githubassets.com/">
     <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/12412821/ws?session=eyJ2IjoiVjMiLCJ1IjoxMjQxMjgyMSwicyI6NjMwNjA0MzU1LCJjIjoxMjg2ODcxOTI2LCJ0IjoxNjE0MTA5MDg1fQ==--fac18360aaa09b43f5ab38cd72c854c9ae957a4b6a35efd80e3d7ee68ac42910" data-refresh-url="/_alive">
@@ -73,7 +73,7 @@
 
   <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
 
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -86,7 +86,7 @@
 
   <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
-  
+
 
 
 
@@ -97,7 +97,7 @@
 
 
 
-  
+
 
       <meta name="hostname" content="github.com">
     <meta name="user-login" content="mnoergaard">
@@ -110,7 +110,7 @@
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,JS_HTTP_CACHE_HEADERS">
 
   <meta http-equiv="x-pjax-version" content="6784128ddfc8c233ad8f8f419640a5fb9c6d664a7e5dc985119b00f47757850d">
-  
+
 
         <link href="https://github.com/bids-standard/bids-examples/commits/bep009_pet.atom" rel="alternate" title="Recent Commits to bids-examples:bep009_pet" type="application/atom+xml">
 
@@ -142,14 +142,14 @@
   </head>
 
   <body class="logged-in env-production page-responsive page-blob" style="word-wrap: break-word;">
-    
+
 
     <div class="position-relative js-header-wrapper ">
       <a href="#start-of-content" class="p-3 color-bg-info-inverse text-white show-on-focus js-skip-to-content">Skip to content</a>
       <span class="progress-pjax-loader width-full js-pjax-loader-bar Progress position-fixed">
     <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
-</span>      
-      
+</span>
+
 
 
             <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap" role="banner" >
@@ -199,9 +199,9 @@
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
             <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
+
 <ul class="d-none js-jump-to-suggestions-template-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
@@ -242,7 +242,7 @@
 </ul>
 
 <ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
@@ -274,7 +274,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-owner-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="owner_scoped_search">
@@ -306,7 +306,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
@@ -401,12 +401,12 @@
     </div>
 
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
-        
+
 
     <notification-indicator class="js-socket-channel" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTI0MTI4MjEiLCJ0IjoxNjE0MTA5MDg1fQ==--1fe9a6f57def5f2c2b4f3a79c3f78e7152206b23698ce4ca0784a86ec05f93f8">
       <a href="/notifications"
          class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
-         
+
          aria-label="You have unread notifications"
          data-hotkey="g n"
          data-ga-click="Header, go to notifications, icon:unread"
@@ -427,7 +427,7 @@
       <svg class="octicon octicon-plus" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path></svg> <span class="dropdown-caret"></span>
   </summary>
   <details-menu class="dropdown-menu dropdown-menu-sw">
-    
+
 <a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
   New repository
 </a>
@@ -460,7 +460,7 @@
     </div>
 
     <div class="Header-item position-relative mr-0 d-none d-md-flex">
-        
+
   <details class="details-overlay details-reset js-feature-preview-indicator-container" data-feature-preview-indicator-src="/users/mnoergaard/feature_preview/indicator_check">
 
   <summary class="Header-link"
@@ -470,7 +470,7 @@
       <span class="feature-preview-indicator js-feature-preview-indicator" style="top: 1px;" hidden></span>
     <span class="dropdown-caret"></span>
   </summary>
-  <details-menu class="dropdown-menu dropdown-menu-sw" style="width: 180px" 
+  <details-menu class="dropdown-menu dropdown-menu-sw" style="width: 180px"
       src="/users/12412821/menu" preload>
       <include-fragment>
         <p class="text-center mt-3" data-hide-on-error>
@@ -492,7 +492,7 @@
     </div>
 </header>
 
-              
+
     </div>
 
   <div id="start-of-content" class="show-on-focus"></div>
@@ -510,7 +510,7 @@
     <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
       <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
     </button>
-    
+
       <div>{{ message }}</div>
 
   </div>
@@ -519,7 +519,7 @@
 </div>
 
 
-    
+
 
   <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
 
@@ -534,19 +534,19 @@
   >
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main id="js-repo-pjax-container" data-pjax-container >
-      
-
-      
-
-
-    
 
 
 
 
 
 
-  
+
+
+
+
+
+
+
 
 
   <div class="color-bg-secondary pt-3 hide-full-screen mb-5">
@@ -563,7 +563,7 @@
   <strong itemprop="name" class="mr-2 flex-self-stretch">
     <a data-pjax="#js-repo-pjax-container" class="" href="/bids-standard/bids-examples">bids-examples</a>
   </strong>
-  
+
 </h1>
 
 
@@ -583,7 +583,7 @@
           <span data-menu-button>
             <span
               hidden
-              
+
               data-target="notifications-list-subscription-form.unwatchButtonCopy"
             >
               <svg class="octicon octicon-eye" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
@@ -591,15 +591,15 @@
             </span>
             <span
               hidden
-              
+
               data-target="notifications-list-subscription-form.stopIgnoringButtonCopy"
             >
               <svg class="octicon octicon-bell-slash" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5c-.997 0-1.895.416-2.534 1.086A.75.75 0 014.38 1.55 5 5 0 0113 5v2.373a.75.75 0 01-1.5 0V5A3.5 3.5 0 008 1.5zM4.182 4.31L1.19 2.143a.75.75 0 10-.88 1.214L3 5.305v2.642a.25.25 0 01-.042.139L1.255 10.64A1.518 1.518 0 002.518 13h11.108l1.184.857a.75.75 0 10.88-1.214l-1.375-.996a1.196 1.196 0 00-.013-.01L4.198 4.321a.733.733 0 00-.016-.011zm7.373 7.19L4.5 6.391v1.556c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01.015.015 0 00.005.012.017.017 0 00.006.004l.007.001h9.037zM8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path></svg>
               Stop ignoring
             </span>
             <span
-              
-              
+
+
               data-target="notifications-list-subscription-form.watchButtonCopy"
             >
               <svg class="octicon octicon-eye" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
@@ -612,7 +612,7 @@
           class="SelectMenu  "
           role="menu"
           data-target="notifications-list-subscription-form.menu"
-          
+
         >
           <div class="SelectMenu-modal notifications-component-menu-modal">
             <header class="SelectMenu-header">
@@ -635,7 +635,7 @@
                   role="menuitemradio"
                   aria-checked="true"
                   data-targets="notifications-list-subscription-form.subscriptionButtons"
-                  
+
                 >
                   <span class="f5">
                     <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
@@ -702,7 +702,7 @@
                 data-action="click:notifications-list-subscription-form#openCustomDialog"
                 aria-haspopup="true"
                 aria-checked="false"
-                
+
               >
                 <span class="f5">
                   <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
@@ -773,7 +773,7 @@
                         value="Issue"
                         data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
                         data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
-                        
+
                       >
                       Issues
                     </label>
@@ -787,7 +787,7 @@
                         value="PullRequest"
                         data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
                         data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
-                        
+
                       >
                       Pull requests
                     </label>
@@ -801,7 +801,7 @@
                         value="Release"
                         data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
                         data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
-                        
+
                       >
                       Releases
                     </label>
@@ -815,14 +815,14 @@
                         value="Discussion"
                         data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
                         data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
-                        
+
                       >
                       Discussions
                     </label>
 
                       <span
                         class="tooltipped tooltipped-nw mr-2 p-1 float-right"
-                        
+
                         aria-label="Discussions are not enabled for this repo">
                         <svg style="fill: var(--color-icon-tertiary)" class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
                       </span>
@@ -907,7 +907,7 @@
       </button>
       <h1 class="Box-title">Fork bids-examples</h1>
     </div>
-      
+
                 <div class="text-center overflow-auto">
                   <include-fragment>
                     <div class="octocat-spinner my-5" aria-label="Loading..."></div>
@@ -927,7 +927,7 @@
 </ul>
 
       </div>
-        
+
 <nav aria-label="Repository" data-pjax="#js-repo-pjax-container" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5 bg-gray-light">
   <ul class="UnderlineNav-body list-style-none ">
           <li class="d-flex">
@@ -988,7 +988,7 @@
           </div>
 </summary>  <div>
     <details-menu role="menu" class="dropdown-menu dropdown-menu-sw ">
-  
+
             <ul>
                 <li data-menu-item="i0code-tab" hidden>
                   <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /bids-standard/bids-examples/tree/bep009_pet" href="/bids-standard/bids-examples/tree/bep009_pet">
@@ -1026,12 +1026,12 @@
 <div class="container-xl clearfix new-discussion-timeline px-3 px-md-4 px-lg-5">
   <div id="repo-content-pjax-container" class="repository-content " >
 
-    
-      
-    
+
+
+
 
 <div>
-  
+
 
 
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/bids-standard/bids-examples/blob/8ebeccd2bdcbdcfdbdd29913575fa3e36929f128/pet_example1/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii">Permalink</a>
@@ -1039,7 +1039,7 @@
     <!-- blob contrib key: blob_contributors:v22:1e43c639e6493f4b7613b2daf829b716e3eb85e9e049aaf8b37f7aa8c4667441 -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
-      
+
 <div class="position-relative">
   <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
     <summary class="btn css-truncate"
@@ -1088,7 +1088,7 @@
               focus-list:ref-selector#focusFirstListMember
             "
             query-endpoint="/bids-standard/bids-examples/refs"
-            
+
             cache-key="v0:1612286929.0"
             current-committish="YmVwMDA5X3BldA=="
             default-branch="bWFzdGVy"
@@ -1115,7 +1115,7 @@
               <a href="https://github.com/bids-standard/bids-examples/blob/{{ urlEncodedRefName }}/pet_example1/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
                 <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
                 <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
-                <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span> 
+                <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
               </a>
             </template>
             <footer class="SelectMenu-footer"><a href="/bids-standard/bids-examples/branches">View all branches</a></footer>
@@ -1212,7 +1212,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      
+
   <div class="Box-header Box-header--blue Details js-details-container">
       <div class="d-flex flex-items-center">
         <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
@@ -1255,7 +1255,7 @@
       <summary class="link-gray-dark">
         <svg class="octicon octicon-people text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
         <strong>2</strong>
-        
+
         contributors
       </summary>
       <details-dialog
@@ -1282,9 +1282,9 @@
     </details>
       <span class="">
     <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/rwblair/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bids-standard/bids-examples/commits/bep009_pet/pet_example1/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii?author=rwblair">
-      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/14927911?s=48&amp;v=4" width="24" height="24" alt="@rwblair" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/14927911?s=48&amp;v=4" width="24" height="24" alt="@rwblair" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/mnoergaard/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bids-standard/bids-examples/commits/bep009_pet/pet_example1/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii?author=mnoergaard">
-      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/12412821?s=48&amp;v=4" width="24" height="24" alt="@mnoergaard" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/12412821?s=48&amp;v=4" width="24" height="24" alt="@mnoergaard" />
 </a>
 </span>
 
@@ -1298,7 +1298,7 @@
 
     <div class="Box mt-3 position-relative
       ">
-      
+
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
@@ -1340,10 +1340,10 @@
   </div>
 </div>
 
-      
+
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-text  gist-border-0">
-      
+
 <table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
@@ -1378,7 +1378,7 @@
 
     </div>
 
-  
+
 
   <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
     <summary data-hotkey="l" aria-label="Jump to line"></summary>
@@ -1402,7 +1402,7 @@
 
   </div>
 
-          
+
 <div class="footer container-xl width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top color-border-secondary ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
@@ -1430,7 +1430,7 @@
     <span class="f6 text-gray-light"></span>
   </div>
 
-  
+
 </div>
 
 
@@ -1470,4 +1470,3 @@
 
   </body>
 </html>
-

@@ -25,17 +25,17 @@ The data have been used in several publications including, for example:
 
 func/
 -----
-Unlike in v1-v3 of this dataset, the first two (dummy) volumes have now been removed (as stated in *.json), so event onset times correctly refer to t=0 at start of third volume 
+Unlike in v1-v3 of this dataset, the first two (dummy) volumes have now been removed (as stated in *.json), so event onset times correctly refer to t=0 at start of third volume
 
 Note that, owing to scanner error, Subject 10 only has 170 volumes in last run (Run 9) (hence the BIDS warning of some onsets in events.tsv file being later than the data)
 
 meg/
 ----
-Three anatomical fiducials were digitized for aligning the MEG with the MRI: the nasion 
-(lowest depression between the eyes) and the left and right ears (lowest depression 
+Three anatomical fiducials were digitized for aligning the MEG with the MRI: the nasion
+(lowest depression between the eyes) and the left and right ears (lowest depression
 between the tragus and the helix, above the tragus). This procedure is illustrated here:
 http://neuroimage.usc.edu/brainstorm/CoordinateSystems#Subject_Coordinate_System_.28SCS_.2F_CTF.29
-and in task-facerecognition_fidinfo.pdf 
+and in task-facerecognition_fidinfo.pdf
 
 The following triggers are included in the .fif files and are also used in the “trigger” column of the meg and bold events files:
 
@@ -58,15 +58,15 @@ The .bmp files correspond to those described in the text. There are 6 additional
 stimuli/mri/
 ------------
 The .bmp files correspond to those described in the text.
-	
+
 Defacing
 --------
 Defacing of MPRAGE T1 images was performed by the submitter. A subset of subjects have given consent for non-defaced versions to be shared - in which case, please contact rik.henson@mrc-cbu.cam.ac.uk.
- 
+
 Quality Control
 ---------------
 Mriqc was run on the dataset. Results are located in derivatives/mriqc. Learn more about it here: https://mriqc.readthedocs.io/en/latest/
- 
+
 Known Issues
 ------------
 N/A
@@ -75,23 +75,23 @@ Relationship of Subject Numbering relative to other versions of Dataset
 ------------
 
 There are multiple versions of the dataset available on the web (see notes above), and these entailed a renumbering of the subjects for various reasons. Here are all the versions and how to match subjects between them (plus some rationale and history for different versions):
- 
-1. Original Paper (N=19): Wakeman & Henson (2015): doi:10.1038/sdata.2015.1 
+
+1. Original Paper (N=19): Wakeman & Henson (2015): doi:10.1038/sdata.2015.1
     Number refers to order that tested (and some, eg 4, 7, 13 etc were excluded for not completing both MRI and MEG sessions)
- 
+
 2. openfMRI, renumbered from paper: http://openfmri.org/s3-browser/?prefix=ds000117/ds000117_R0.1.1/uncompressed/
     Numbers 1-19 just made contiguous
- 
-3. FTP subset of N=16: ftp: ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/  
+
+3. FTP subset of N=16: ftp: ftp://ftp.mrc-cbu.cam.ac.uk/personal/rik.henson/wakemandg_hensonrn/
     This set was used for SPM Courses
     Designed to illustrate multimodal integration, so wanted good MRI+MEG+EEG data for all subjects
     Removed original subject_01 and subject_06 because bad EEG data; subject_19 because poor EEG and fMRI data
     (And renumbered subject_14 for some reason).
- 
-4. Current OpenNeuro subset N=16 used for (BIDS): https://openneuro.org/datasets/ds000117 
+
+4. Current OpenNeuro subset N=16 used for (BIDS): https://openneuro.org/datasets/ds000117
     OpenNeuro was rebranding of openfMRI, and enforced BIDS format
     Since this version designed to illustrate multi-modal BIDS, kept same numbering as FTP
- 
+
 W&H2015       openfMRI    FTP      openNeuro
 ========       ======        ===     =======
 subject_01      sub001
@@ -113,4 +113,3 @@ subject_19      sub016
 subject_23      sub017      Sub14   sub-14
 subject_24      sub018      Sub15   sub-15
 subject_25      sub019      Sub16   sub-16
-
