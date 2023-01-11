@@ -1,7 +1,3 @@
 {{> institution}}
-
 {{> mri_scanner_info}}
-
-A {{> mri_sequence_description}} field map
-(phase encoding: {{PhaseEncodingDirection}}; {{nb_slices}} slices; {{> common_mri_parameters}}
-echo time 1 / 2, TE 1/2= {{echo_time}} ms; {{> image_size}}) was acquired.
+A {{> mri_sequence_description}} field map ({{> common_mri_parameters}} echo time 1 / 2, TE 1/2= {{te_1}}/{{te_1}} ms; phase encoding: {{ dir }}; {{ multiband_factor }}; {{> image_size}} {{nb_slices}} slices) was acquired for the {{intended_for}}.
