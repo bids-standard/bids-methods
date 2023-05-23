@@ -19,13 +19,11 @@ def highlight_missing_tags(foo):
 
 
 def print_to_screen(template_name, metadata):
-
     templates_dir = join(root_dir(), "templates")
 
     partials_path = join(root_dir(), "partials")
 
     with open(join(templates_dir, template_name), "r") as template:
-
         args = {
             "template": template,
             "data": metadata,
@@ -39,7 +37,6 @@ def print_to_screen(template_name, metadata):
 
 
 def main():
-
     data_dir = join(root_dir(), "demos", "data")
 
     data_path = join(data_dir, "ds000117")
