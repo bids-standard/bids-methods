@@ -1,5 +1,3 @@
-{{> institution}}
-{{> mri_scanner_info}}
 For the {{ task_name }} task {{ nb_runs }} of {{scan_type}} {{> mri_sequence_description}} {{ multi_echo }} fMRI data were collected. The acquisition parameters were: {{ nb_slices }} slices acquired in a {{ so_str }} fashion; {{> common_mri_parameters}} echo time, TE= {{ echo_time }} ms; {{#slice_order}}{{ slice_order }};{{/slice_order}} {{ multiband_factor }}; {{#inplane_accel }}in-plane acceleration factor= {{ inplane_accel }};{{/inplane_accel}} {{> image_size}}
 Each run was {{ duration }} minutes in length, during which {{ nb_vols }} functional volumes were acquired.
 {{> task}}
