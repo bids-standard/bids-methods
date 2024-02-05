@@ -1,5 +1,5 @@
 function value = root_dir()
 
-  value = fullfile(fileparts(mfilename('fullpath')), '..', '..');
+    value = fullfile(fileparts(mfilename('fullpath')), '..', '..');
 
 end
