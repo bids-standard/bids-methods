@@ -1,2 +1,2 @@
-a {{model_name}} system from {{manufacturer}},
-with serial number {{DeviceSerialNumber}}. The software version was {{SoftwareVersions}}.
+a {{model_name}} system{{#manufacturer}} from {{manufacturer}}{{/manufacturer}}{{#DeviceSerialNumber}} with serial number {{DeviceSerialNumber}}{{/DeviceSerialNumber}}.
+{{#SoftwareVersions}}The software version was {{SoftwareVersions}}.{{/SoftwareVersions}}
