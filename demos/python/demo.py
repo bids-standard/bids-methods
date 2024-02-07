@@ -1,67 +1,106 @@
+"""Script to view what the templates would look like after rendering."""
+
+from pathlib import Path
+
 import chevron
-from os import path
-from os.path import join
+from rich import print
 
 from bids import BIDSLayout
 
-from rich import print
+# Tog1gling KEEP to True will render the empty variables in RED
+# Only work with the version of chevron from github and not pypi
+KEEP = True
+
+# bids examples dataset to work with
+# see in  "demos/data/bids-examples"
+dataset = "ds000117"
 
 
-def root_dir():
-    return path.abspath(join(path.dirname(__file__), "..", ".."))
+def root_dir() -> Path:
+    return Path(__file__).parents[2]
 
 
-def highlight_missing_tags(foo):
-    foo = f"[blue]{foo}[/blue]"
-    foo = foo.replace("{{", "[/blue][red]{{")
-    foo = foo.replace("}}", "}}[/red][blue]")
-    return foo
+def highlight_missing_tags(text: str) -> str:
+    text = f"[blue]{text}[/blue]"
+    text = text.replace("{{", "[/blue][red]{{")
+    text = text.replace("}}", "}}[/red][blue]")
+    return text
 
 
-def print_to_screen(template_name, metadata):
-    templates_dir = join(root_dir(), "templates")
+def print_to_screen(layout, template_name, suffix) -> None:
+    files = layout.get(suffix=suffix)
 
-    partials_path = join(root_dir(), "partials")
+    if len(files) < 1:
+        return
 
-    with open(join(templates_dir, template_name), "r") as template:
+    metadata = files[0].get_metadata()
+    metadata["suffix"] = suffix
+
+    render_template(template_name, metadata)
+
+
+def render_template(template_name, metadata) -> None:
+    templates_dir = root_dir() / "templates"
+
+    partials_path = root_dir() / "partials"
+
+    with open(templates_dir / template_name, "r") as template:
         args = {
             "template": template,
             "data": metadata,
             "partials_path": partials_path,
-            "keep": True,
+            "keep": KEEP,
         }
 
-        foo = chevron.render(**args)
+        text = chevron.render(**args)
 
-        print(highlight_missing_tags(foo))
+        print(highlight_missing_tags(text))
 
 
 def main():
-    data_dir = join(root_dir(), "demos", "data")
+    data_dir = root_dir() / "demos" / "data" / "bids-examples"
 
-    data_path = join(data_dir, "ds000117")
+    data_path = data_dir / "ds000117"
 
     layout = BIDSLayout(data_path)
 
-    print("\n[bold]ANAT[/bold]")
-    files = layout.get(suffix="T1w", extension=".nii.gz")
-    metadata = files[0].get_metadata()
-    print_to_screen("anat.mustache", metadata)
+    # %%
+    print(f"\n[bold]# MRI[/bold]")
 
-    print("\n[bold]BOLD[/bold]")
-    files = layout.get(suffix="bold", extension=".nii.gz", run=1)
-    metadata = files[0].get_metadata()
-    print_to_screen("func.mustache", metadata)
+    files = layout.get(suffix="T1w")
+    if len(files) > 1:
+        metadata = files[0].get_metadata()
+        render_template("institution.mustache", metadata)
+        render_template("mri_scanner_info.mustache", metadata)
 
-    print("\n[bold]DWI[/bold]")
-    files = layout.get(suffix="dwi", extension=".nii.gz")
-    metadata = files[0].get_metadata()
-    print_to_screen("dwi.mustache", metadata)
+    suffix_template = {
+        "T1w": "anat",
+        "bold": "func",
+        "dwi": "dwi",
+        "perf": "perf",
+    }
 
-    print("\n[bold]MEG[/bold]")
-    files = layout.get(suffix="meg", run=1)
-    metadata = files[0].get_metadata()
-    print_to_screen("meeg.mustache", metadata)
+    for suffix, template in suffix_template.items():
+        print(f"\n[bold]## {suffix.upper()}[/bold]")
+        print_to_screen(layout, f"{template}.mustache", suffix)
+
+    # %%
+    print(f"\n[bold]# PET[/bold]")
+
+    print(f"\n[bold]## {'pet'.upper()}[/bold]")
+    print_to_screen(layout, "pet.mustache", suffix)
+
+    # %%
+    print(f"\n[bold]# MEEG[/bold]")
+
+    suffix_template = {
+        "eeg": "meeg",
+        "meg": "meeg",
+    }
+
+    for suffix, template in suffix_template.items():
+        print(f"\n[bold]## {suffix.upper()}[/bold]")
+        print_to_screen(layout, f"{template}.mustache", suffix)
 
 
 if __name__ == "__main__":
