@@ -1,0 +1,4 @@
+[submodule "demos/data/bids-examples"]
+	path = demos/data/bids-examples
+	url = https://github.com/bids-standard/bids-examples.git
+	datalad-url = https://github.com/bids-standard/bids-examples.git
